@@ -1,0 +1,19 @@
+.card-image {
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.card-image img {
+    display: block;
+
+    max-width: 100%;
+
+    transition: all 1s;
+}
+
+.card-image:hover img {
+    transform: scale(1.1, 1.1);
+
+    opacity: 0.9;
+}
