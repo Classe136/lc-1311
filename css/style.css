@@ -1,19 +1,14 @@
-.card-image {
-    overflow: hidden;
-
-    cursor: pointer;
-}
-
-.card-image img {
-    display: block;
-
-    max-width: 100%;
-
+.team-card {
+    transform: scale(0.9, 0.9);
     transition: all 1s;
 }
 
-.card-image:hover img {
-    transform: scale(1.1, 1.1);
-
+.team-card:hover {
+    cursor: pointer;
+    transform: scale(1.0, 1.0);
     opacity: 0.9;
+}
+
+.trash i {
+    cursor: pointer;
 }
